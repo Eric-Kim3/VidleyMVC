@@ -1,0 +1,22 @@
+﻿@using VidleyMVC.Models
+@model IEnumerable<VidleyMVC.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Customers</h2>
+
+<h3>Customers</h3>
+
+@if (!Model.Any())
+{
+    <p>Empty Customer Lists</p>
+}
+else
+{
+    foreach (var cust in Model)
+    {
+        <P>@Html.ActionLink(cust.Name, "Details", "Customer", new {id = cust.Id}, null)</P>
+    }
+}
