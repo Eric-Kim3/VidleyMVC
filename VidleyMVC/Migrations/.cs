@@ -7,12 +7,12 @@ namespace VidleyMVC.Migrations
     {
         public override void Up()
         {
-            AddColumn("dbo.Customers", "Birthday", c => c.DateTime(nullable: false));
+            AddColumn("dbo.Customers", "Birthdate", c => c.DateTime(nullable: false));
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Customers", "Birthday");
+            DropColumn("dbo.Customers", "Birthdate");
         }
     }
 }

@@ -133,7 +133,6 @@ C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Microsoft.Owin.Sec
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.csprojResolveAssemblyReference.cache
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.dll
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.pdb
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.InitialModel.resources
@@ -153,3 +152,5 @@ C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Mi
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddDetailsToMovie1.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddGenreType.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.PopulateGenreTypes.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.UpdatedBirthdayToBirthdate.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.csprojResolveAssemblyReference.cache

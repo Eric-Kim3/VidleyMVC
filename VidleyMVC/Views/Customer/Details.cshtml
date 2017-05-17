@@ -9,8 +9,8 @@
 <h3>@Model.Name</h3>
 <ul>
     <li>Membership Type: @Model.MembershipType.NameOfMembershipType</li>
-    @if (Model.Birthday.HasValue)
+    @if (Model.Birthdate.HasValue)
     {
-        <li>Birthdate: @Model.Birthday.Value.ToShortDateString()</li>
+        <li>Birthdate: @Model.Birthdate.Value.ToShortDateString()</li>
     }
 </ul>
