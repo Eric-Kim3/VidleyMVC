@@ -32,14 +32,13 @@ namespace VidleyMVC.Controllers
 
         public ActionResult Details(int id)
         {
-            var genreTypes = _context.GenreTypes.ToList();
             var movie = _context.Movies.Include(m => m.GenreType).SingleOrDefault(m => m.Id == id);
             if (movie == null)
                 return HttpNotFound();
-            var viewModel = new MovieFormViewModel
+            var viewModel = new MovieFormViewModel(movie)
             {
-                Movie = movie,
-                GenreTypes = genreTypes
+
+                GenreTypes = _context.GenreTypes.ToList()
             };
             return View("MovieForm", viewModel);
             //return View(movie);
@@ -62,6 +61,7 @@ namespace VidleyMVC.Controllers
         //    return View("MovieForm", )
         //}
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
             if (movie.Id == 0)

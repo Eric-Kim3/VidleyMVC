@@ -8,9 +8,10 @@ namespace VidleyMVC.Models
         public int Id { get; set; }
 
         [Display(Name = "Date of Birth")]
+        [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
 
-        [Required]//making it not nullable
+        [Required(ErrorMessage = "Please enter customer's name.!.!.")]//making it not nullable
         [StringLength(255)] //String Length cannot be more than 255 
         public string Name { get; set; }
 

@@ -16,5 +16,10 @@ namespace VidleyMVC.Models
         [StringLength(255)]
         public string NameOfMembershipType { get; set; }
 
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
+
+
+
     }
 }

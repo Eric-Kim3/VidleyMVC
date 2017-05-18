@@ -153,4 +153,5 @@ C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Mi
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddGenreType.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.PopulateGenreTypes.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.UpdatedBirthdayToBirthdate.resources
-C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.csprojResolveAssemblyReference.cache
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.NewMigrationForSection5.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.Section5Error.resources
