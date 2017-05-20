@@ -155,3 +155,12 @@ C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Mi
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.UpdatedBirthdayToBirthdate.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.NewMigrationForSection5.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.Section5Error.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Web.Http.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Web.Http.xml
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.csprojResolveAssemblyReference.cache
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\AutoMapper.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\AutoMapper.xml
