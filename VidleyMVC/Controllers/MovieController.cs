@@ -25,9 +25,9 @@ namespace VidleyMVC.Controllers
         // GET: Movie
         public ActionResult Index()
         {
-            var movieList = _context.Movies.Include(m => m.GenreType).ToList();
+            //var movieList = _context.Movies.Include(m => m.GenreType).ToList();
 
-            return View(movieList);
+            return View();//movieList);
         }
 
         public ActionResult Details(int id)

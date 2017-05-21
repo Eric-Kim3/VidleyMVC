@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using VidleyMVC.Models;
 
 namespace VidleyMVC.Dtos
 {
@@ -16,5 +15,6 @@ namespace VidleyMVC.Dtos
         public string Name { get; set; }
         public bool IsSubscribedToNewsLetter { get; set; }
         public byte MembershipTypeId { get; set; }
+        public MembershipTypeDTO MembershipType { get; set; }
     }
 }

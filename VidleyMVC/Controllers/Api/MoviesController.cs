@@ -1,9 +1,10 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
-using AutoMapper;
 using VidleyMVC.Dtos;
 using VidleyMVC.Models;
 
@@ -19,9 +20,12 @@ namespace VidleyMVC.Controllers.Api
 
         }
         // GET /api/movies
-        public IEnumerable<MovieDTO> GetMovieses()
+        public IEnumerable<MovieDTO> GetMovies()
         {
-            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDTO>);
+            return _context.Movies.
+                Include(m => m.GenreType).
+                ToList().
+                Select(Mapper.Map<Movie, MovieDTO>);
         }
 
         // GET /api/movies/1
@@ -46,7 +50,7 @@ namespace VidleyMVC.Controllers.Api
             _context.SaveChanges();
 
             movieDto.Id = movie.Id;
-            return Created(new Uri(Request.RequestUri + "/" + movie.Id), movie );
+            return Created(new Uri(Request.RequestUri + "/" + movie.Id), movie);
         }
 
         //PUT /api/movies/1

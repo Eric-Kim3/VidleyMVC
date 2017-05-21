@@ -66,8 +66,8 @@ namespace VidleyMVC.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-            var customerList = _context.Customers.Include(c => c.MembershipType).ToList();
-            return View(customerList);
+            //var customerList = _context.Customers.Include(c => c.MembershipType).ToList();
+            return View(); //customerList);
         }
         //[Route("customers/detail/{id}")]
         public ActionResult Details(int id)

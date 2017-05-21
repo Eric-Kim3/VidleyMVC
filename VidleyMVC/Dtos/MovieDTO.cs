@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-using VidleyMVC.Models;
 
 namespace VidleyMVC.Dtos
 {
@@ -21,5 +17,7 @@ namespace VidleyMVC.Dtos
         public int NumberInStock { get; set; }
         [Required]
         public byte GenreTypeId { get; set; }
+        public GenreTypeDTO GenreType { get; set; }
+
     }
 }
