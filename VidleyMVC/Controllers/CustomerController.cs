@@ -6,6 +6,7 @@ using VidleyMVC.ViewModel;
 
 namespace VidleyMVC.Controllers
 {
+    [Authorize]
     public class CustomerController : Controller
     {
         private ApplicationDbContext _context;
@@ -64,6 +65,7 @@ namespace VidleyMVC.Controllers
         }
 
         // GET: Customer
+        [AllowAnonymous]
         public ActionResult Index()
         {
             //var customerList = _context.Customers.Include(c => c.MembershipType).ToList();

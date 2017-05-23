@@ -10,6 +10,7 @@ using VidleyMVC.Models;
 
 namespace VidleyMVC.Controllers.Api
 {
+    [Authorize]
     public class CustomersController : ApiController
     {
         private ApplicationDbContext _context;

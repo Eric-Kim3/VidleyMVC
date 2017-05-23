@@ -7,6 +7,7 @@ using VidleyMVC.ViewModel;
 
 namespace VidleyMVC.Controllers
 {
+    [Authorize]
     public class MovieController : Controller
     {
         public ApplicationDbContext _context;
@@ -23,11 +24,13 @@ namespace VidleyMVC.Controllers
         }
 
         // GET: Movie
+        [AllowAnonymous]
         public ActionResult Index()
         {
             //var movieList = _context.Movies.Include(m => m.GenreType).ToList();
-
-            return View();//movieList);
+            if (User.IsInRole(RoleName.CanManageMovie))
+                return View("List");//movieList);
+            return View("ReadOnlyList");
         }
 
         public ActionResult Details(int id)
@@ -45,6 +48,7 @@ namespace VidleyMVC.Controllers
 
         }
 
+        [Authorize(Roles = RoleName.CanManageMovie)]
         public ActionResult New()
         {
             var genreTypes = _context.GenreTypes.ToList();
@@ -55,11 +59,14 @@ namespace VidleyMVC.Controllers
             return View("MovieForm", viewModel);
         }
 
-        //public ActionResult Edit(Movie movie)
-        //{
-
-        //    return View("MovieForm", )
-        //}
+        public ActionResult Edit(Movie movie)
+        {
+            var viewModel = new MovieFormViewModel()
+            {
+                Id = movie.Id
+            };
+            return View("MovieForm", viewModel);
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)

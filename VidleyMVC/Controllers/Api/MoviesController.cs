@@ -5,11 +5,13 @@ using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web.Http;
+//using System.Web.Mvc;
 using VidleyMVC.Dtos;
 using VidleyMVC.Models;
 
 namespace VidleyMVC.Controllers.Api
 {
+    [Authorize]
     public class MoviesController : ApiController
     {
         private ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace VidleyMVC.Controllers.Api
 
         }
         // GET /api/movies
+        [AllowAnonymous]
         public IEnumerable<MovieDTO> GetMovies()
         {
             return _context.Movies.
@@ -29,6 +32,7 @@ namespace VidleyMVC.Controllers.Api
         }
 
         // GET /api/movies/1
+        [AllowAnonymous]
         public IHttpActionResult GetMovie(int id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
