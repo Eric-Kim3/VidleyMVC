@@ -167,3 +167,15 @@ C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Mi
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddDrivingLicenseToApplicationUser.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddPhoneNumberToApplicationUser.resources
 C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.RequiredPhoneNumber.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Glimpse.Ado.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Glimpse.AspNet.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Glimpse.Core.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Glimpse.EF6.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Glimpse.Mvc5.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.csprojResolveAssemblyReference.cache
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddNewRental.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddNumberAvailableInMovie.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\obj\Debug\VidleyMVC.Migrations.AddNumberAvailableInMovie1.resources
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Toast.exe
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\Toaster.dll
+C:\Users\EK_SP4\Desktop\MSSA\Projects\VidleyMVC\VidleyMVC\bin\ToolBelt.dll

@@ -18,11 +18,11 @@ namespace VidleyMVC.Models
         [Display(Name = "Number in Stock")]
         [Range(1, 20)]
         public int NumberInStock { get; set; }
+        [Range(1, 20)]
+        public int NumberAvailable { get; set; }
         [Required]
         [Display(Name = "Genre")]
         public byte GenreTypeId { get; set; }
-
-
-
+        
     }
 }

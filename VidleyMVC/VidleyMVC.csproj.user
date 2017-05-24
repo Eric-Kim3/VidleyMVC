@@ -10,7 +10,8 @@
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <ProjectView>ShowAllFiles</ProjectView>
-    <IISExpressSSLPort>44366</IISExpressSSLPort>
+    <IISExpressSSLPort>44313</IISExpressSSLPort>
+    <NameOfLastUsedPublishProfile>ExternalProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
